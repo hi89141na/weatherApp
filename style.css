@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lobster", sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+
+body {
+    background-color: hsl(8, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    background-image: url("assets/clouds.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    padding: 3%;
+    background: red;
+    border-radius: 20px;
+    box-shadow: -5px 5px 5px black;
+    background: linear-gradient(180deg, #52c5d4, #61d356);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.weatherForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formInput {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+
+}
+
+.formInput:focus {
+    outline: none;
+}
+
+.weatherForm button[type="submit"] {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background: rgb(74, 167, 74);
+    color: white;
+    cursor: pointer;
+}
+
+.weatherForm button[type="submit"]:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(74, 167, 74);
+}
+
+.card {
+    background: red;
+    background: linear-gradient(180deg,#61d365 30%,  #52c5d4 100%);
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: -5px 5px 50px -15px rgb(0, 0, 0) ;
+    display: none;
+}
+.card .cityDisplay{
+    font-size: 3rem;
+}
+.card .tempDisplay{
+    font-size: 2.5rem;
+}
+.card .humidityDisplay, 
+.card .descDisplay{
+    font-size: 1.5rem;
+}
+.card .errorDisplay{
+    font-size: 1.5rem;
+    color: red;
+}
