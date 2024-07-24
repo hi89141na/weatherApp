@@ -22,8 +22,7 @@ body {
 .container {
     height: 500px;
     width: 500px;
-    padding: 3%;
-    background: red;
+    padding: 40px;
     border-radius: 20px;
     box-shadow: -5px 5px 5px black;
     background: linear-gradient(180deg, #52c5d4, #61d356);
