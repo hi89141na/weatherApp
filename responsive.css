@@ -1,0 +1,50 @@
+@media(max-width:768px){
+body{
+    justify-content: flex-start;
+    margin-top: 100px;
+}
+.container{
+    width: 400px;
+    height: 400px;
+}
+.card .cityDisplay{
+    font-size: 2rem;
+}
+.card .tempDisplay{
+    font-size: 1.5rem;
+}
+.card .humidityDisplay, 
+.card .descDisplay{
+    font-size: 1rem;
+}
+.card .errorDisplay{
+    font-size: 2rem;
+    color: red;
+}
+
+}
+@media(max-width:460px){
+body{
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+.container{
+    width: 350px;
+    height: 350px;
+}
+.card .cityDisplay{
+    font-size: 1.75rem;
+}
+.card .tempDisplay{
+    font-size: 1.5rem;
+}
+.card .humidityDisplay, 
+.card .descDisplay{
+    font-size: 1rem;
+}
+.card .errorDisplay{
+    font-size: 2rem;
+    color: red;
+}
+
+}
