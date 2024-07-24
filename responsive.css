@@ -1,8 +1,4 @@
 @media(max-width:768px){
-body{
-    justify-content: flex-start;
-    margin-top: 100px;
-}
 .container{
     width: 400px;
     height: 400px;
@@ -24,10 +20,6 @@ body{
 
 }
 @media(max-width:460px){
-body{
-    justify-content: flex-start;
-    margin-top: 50px;
-}
 .container{
     width: 350px;
     height: 350px;
